@@ -10,13 +10,11 @@ public class EnumExample {
         Day today = Day.MONDAY;
 
         switch (today) {
-            case MONDAY:
+            case MONDAY ->
                 System.out.println("It's Monday!"); // It's Monday!
-                break;
-            case FRIDAY:
+            case FRIDAY ->
                 System.out.println("It's Friday!");
-                break;
-            default:
+            default ->
                 System.out.println("It's some other day.");
         }
     }
